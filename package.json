@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/quiubas/quiubas-node#readme",
   "dependencies": {
-    "request": "*",
+    "request": "*"
   }
 }
