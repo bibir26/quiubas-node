@@ -1,5 +1,5 @@
 {
-  "name": "quiubas-node",
+  "name": "quiubas",
   "version": "1.0.0",
   "description": "Quiubas NodeJS Library for REST API",
   "main": "lib/quiubas.js",
