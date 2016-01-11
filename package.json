@@ -1,0 +1,26 @@
+{
+  "name": "quiubas-node",
+  "version": "1.0.0",
+  "description": "Quiubas NodeJS Library for REST API",
+  "main": "lib/quiubas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quiubas/quiubas-node.git"
+  },
+  "keywords": [
+    "sms",
+    "quiubas"
+  ],
+  "author": "zo0r <http://zo0r.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quiubas/quiubas-node/issues"
+  },
+  "homepage": "https://github.com/quiubas/quiubas-node#readme",
+  "dependencies": {
+    "request": "*",
+  }
+}
