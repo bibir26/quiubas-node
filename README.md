@@ -13,17 +13,20 @@ var quiubas = require('quiubas');
 // quiubas.{ RESOURCE_NAME }.{ METHOD_NAME }
 ```
 
-Every resource method accepts an optional callback as the last argument:
+The last two arguments of every resource method is the `success` and `error` method, if no `error` is specified and an error occurs a `throw` will shown instead.
 
+## Send an SMS
 ```js
 quiubas.sms.send(
   {
   	to_number: '+52552123524',
   	message: 'Hello there'
   },
-  function(err, sms) {
-    err; // null if no error occurred
-    sms; // the created sms object
+  function(response) {
+    console.log('SUCCESS:', response);
+  },
+  funciton(error) {
+	console.log('ERROR:', error);
   }
 );
 ```
