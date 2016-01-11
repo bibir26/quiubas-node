@@ -25,7 +25,7 @@ quiubas.sms.send(
   function(response) {
     console.log('SUCCESS:', response);
   },
-  funciton(error) {
+  function(error) {
 	console.log('ERROR:', error);
   }
 );
