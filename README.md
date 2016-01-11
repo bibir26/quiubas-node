@@ -19,6 +19,10 @@ The last two arguments of every resource method is the `success` and `error` met
 
 ## Send an SMS
 ```js
+var quiubas = require('quiubas');
+
+quiubas.setAuth( 'api_key', 'api_private' );
+
 quiubas.sms.send(
   {
   	to_number: '+52552123524',
