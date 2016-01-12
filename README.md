@@ -15,7 +15,7 @@ var quiubas = require('quiubas');
 // quiubas.{ RESOURCE_NAME }.{ METHOD_NAME }
 ```
 
-The last two arguments of every resource method is the `success` and `error` method, if no `error` is specified and an error occurs a `throw` will shown instead.
+The last two arguments of every resource method is the `success` and `error` callbacks, if no `error` is specified and an error occurs a `throw` will shown instead.
 
 ## Send an SMS
 ```js
