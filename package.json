@@ -1,6 +1,6 @@
 {
   "name": "quiubas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quiubas NodeJS Library for REST API",
   "main": "lib/quiubas.js",
   "scripts": {
