@@ -4,7 +4,7 @@
 
 ## Installation
 
-`npm install quiubas`
+`npm install @quiubas/quiubas-node`
 
 ## API Overview
 
@@ -23,17 +23,13 @@ var quiubas = require('quiubas');
 
 quiubas.setAuth( 'api_key', 'api_private' );
 
-quiubas.sms.send(
-  {
+quiubas.sms.send({
   	to_number: '+52552123524',
   	message: 'Hello there'
-  },
-  function(response) {
+  }, (response) => {
     console.log('SUCCESS:', response);
-  },
-  function(error) {
-	console.log('ERROR:', error);
+  }, (error) => {
+	   console.log('ERROR:', error);
   }
 );
 ```
-
