@@ -1,6 +1,6 @@
 {
-  "name": "quiubas",
-  "version": "1.2.0",
+  "name": "@quiubas/quiubas-node",
+  "version": "1.2.1",
   "description": "Quiubas NodeJS Library for REST API",
   "main": "lib/quiubas.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quiubas/quiubas-node.git"
+    "url": "https://github.com/quiubas/quiubas-node.git"
   },
   "keywords": [
     "sms",
@@ -19,8 +19,12 @@
   "bugs": {
     "url": "https://github.com/quiubas/quiubas-node/issues"
   },
-  "homepage": "https://github.com/quiubas/quiubas-node#readme",
+  "homepage": "https://github.com/quiubas/quiubas-node/",
   "dependencies": {
     "request": "*"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }
