@@ -1,6 +1,6 @@
 {
   "name": "@quiubas/quiubas-node",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Quiubas NodeJS Library for REST API",
   "main": "lib/quiubas.js",
   "scripts": {
