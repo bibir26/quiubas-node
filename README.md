@@ -11,7 +11,7 @@
 Every resource is accessed via your `quiubas` instance:
 
 ```js
-var quiubas = require('quiubas');
+var quiubas = require('@quiubas/quiubas-node');
 // quiubas.{ RESOURCE_NAME }.{ METHOD_NAME }
 ```
 
@@ -19,7 +19,7 @@ The last two arguments of every resource method is the `success` and `error` cal
 
 ## Send an SMS
 ```js
-var quiubas = require('quiubas');
+var quiubas = require('@quiubas/quiubas-node');
 
 quiubas.setAuth( 'api_key', 'api_private' );
 
