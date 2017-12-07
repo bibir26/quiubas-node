@@ -1,7 +1,6 @@
 
 # Quiubas NodeJS Library [![npm version](https://badge.fury.io/js/%40quiubas%2Fquiubas-node.svg)](https://badge.fury.io/js/%40quiubas%2Fquiubas-node)
 
-
 ## Installation
 
 `npm install @quiubas/quiubas-node`
