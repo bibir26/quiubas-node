@@ -1,5 +1,10 @@
 Quiubas Changelog
 ====================
+Version 1.3.1
+-------------
+Released November 1, 2018
+
+- Initial Release
 
 Version 1.3.0
 -------------
