@@ -1,5 +1,11 @@
 Quiubas Changelog
 ====================
+Version 1.3.3
+-------------
+Released March 12, 2019
+
+- Fix error handling if api returns {"error":true}
+
 Version 1.3.1
 -------------
 Released November 1, 2018
